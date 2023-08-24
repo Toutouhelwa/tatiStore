@@ -1,0 +1,18 @@
+.searchPart {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+}
+.search-input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+@media(max-width:887px) {
+.searchPart {
+    width: 90%;
+}
+
+}

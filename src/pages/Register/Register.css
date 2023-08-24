@@ -1,0 +1,7 @@
+.infotitle {
+    margin: 0;
+    border-bottom: 1px solid grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(92, 92, 199);
+    text-decoration: wavy;
+}

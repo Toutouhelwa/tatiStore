@@ -1,0 +1,53 @@
+.login-form {
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 10px;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+}
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.login-form h2 {
+    font-family: 'Courier New', Courier, monospace sans-serif;
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+    font-weight: 500;
+}
+.login-form span {
+    color: rgb(44, 99, 201);
+    font-size: 14px;
+    text-decoration: underline;
+}
+.login-form label {
+    text-align: center;
+    width: 70%;
+}
+label input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.link-btn {
+    padding: 15px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace sans-serif;
+    font-size: 18px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.link-btn:hover {
+    color: white;
+    background-color: black;
+}
+@media (max-width:694px) {
+    .login-form {
+        width: 85%;
+    }
+}
